@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Neha Chaudhari</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="home">
+        <div class="navbar">
+            <div class="logo">Neha</div>
+            <div class="navitems">
+                <a href="#home" class="nav">Home</a>
+                <a href="#about" class="nav">About</a>
+                <a href="#services" class="nav">Services</a>
+                <a href="#portfolio" class="nav">Portfolio</a>
+                <a href="#contact" class="nav">Contact</a>
+            </div>
+        </div>
+        <div class="front">
+            <div class="cell1">
+                <img src="cloud.png" alt="cloud" class="cloud">
+                <p class="desc">Web Developer</p>
+                <pre class="info">Hi, I'm <b>Neha</b>
+Chaudhari From India
+                </pre>
+            </div>
+            <div class="cell2"></div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="cell3">
+            <div class="aboutpic"></div>
+        </div>
+        <div class="cell4">
+            <h1 class="abouth">About Me</h1>
+            <p class="abinfo">As a first-year BCA student at Ness Wadia College of Commerce in Pune and a budding frontend web developer, I navigate the dynamic landscape of information technology with zest. With an insatiable curiosity, I delve into the intricacies of web development, honing my skills in HTML, CSS, and JavaScript. Embracing the fusion of creativity and functionality, I craft visually appealing and user-friendly interfaces that resonate with modern digital audiences. Through my academic pursuits and practical experiences, I aspire to seamlessly integrate cutting-edge technologies, ensuring seamless user experiences and driving innovation in the digital realm.</p>
+             <div class="abtitle">
+                <p class="ablinks active-link" onclick="opentab('skills')">Skills</p>
+                <p class="ablinks" onclick="opentab('experience')">Experience</p>
+                <p class="ablinks" onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul class="skills">
+                    <li><span>C</span><br>Data Structure and Algorithm</li>
+                    <li><span>Web Technology</span><br>frontend Web Development</li>
+                    <li><span>DataBase Management</span><br>SQL and PL/SQL and RDBMS</li>
+                </ul>
+             </div>
+             <div class="tab-contents" id="experience">
+                <ul class="experience">
+                    <li><span>CodSOft</span> <br>Current 2024 <br>Web Development with frontend and backend.</li>
+                    <li><span>Shine Project </span><br>Sep 2023 - Oct 2023 <br> Digital Marketing and Hand on experience in B2B and B2C.</li>
+                </ul>
+             </div>
+             <div class="tab-contents" id="education">
+                <ul class="education">
+                    <li><span>Current</span><br>Ness Wadia College of Commerce, Pune <br>Bachelor of Business Administration (Computer Application)</li>
+                    <li><span>2023</span><br>Kisan Veer Mahavidhyalaya, Wai <br>Higher Secondary Certificate</li>
+                    <li><span>2021</span><br>Chetan Dattaji Gaikawad Vidhyalaya, Metgutad <br>Secondary School Certificate </li>
+                </ul>
+             </div>
+        </div>
+    </div>
+    <div id="services">
+        <h1 class="sname">My Services</h1>
+        <div class="scontainer">
+            <div class="service">
+                <img src="code.png" alt="code"  class="simg">
+                <h3 class="imgname">Web Design</h3>
+                <p class="sdesc">I create beautiful websites as a frontend developer. Using my skills in HTML, CSS, and JavaScript, I bring designs to life, making them interactive and user-friendly. With a focus on creativity and functionality, I craft digital experiences that captivate and engage users.</p>
+                <a href="#" class="more">Learn More</a>
+            </div>
+            <div class="service">
+                <img src="c.png" alt="code"  class="simg">
+                <h3 class="imgname">C Language</h3>
+                <p class="sdesc">I provide C language expertise along with knowledge in Data Structures and Algorithms (DSA). With proficiency in coding and problem-solving, I offer services to develop efficient software solutions. Let's collaborate to build robust programs tailored to your needs.</p>
+                <a href="#" class="more">Learn More</a>
+            </div>
+            <div class="service">
+                <img src="data-management.png" alt="code" class="simg">
+                <h3 class="imgname">DataBase Management</h3>
+                <p class="sdesc" style="margin-bottom:45px ;">I am skilled in managing databases using SQL and PL/SQL. With expertise in organizing, retrieving, and manipulating data, I ensure efficient data storage and retrieval, contributing to streamlined operations and informed decision-making.</p>
+                <a href="#" class="more" >Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <h1 class="workname">My Work</h1>
+        <div class="workcontainer">
+            <div class="mainwork">
+                 <div class="work" style="background-image: url('idea.png');" ></div>
+                 <div class="project">Flipcart Clone</div>
+                 <div class="prodesc">E-commerce platform with user-friendly interface for seamless online shopping.</div>
+                 <a href="https://github.com/NehaCod/Flipcart-Clone.git"><i class="fa-solid fa-arrow-up-right-from-square share"></i></a>
+             </div>
+            <div class="mainwork">
+                 <div class="work" style="background-image: url('folder.png');"></div>
+                 <div class="project">Coding Portal</div>
+                 <div class="prodesc">Revolutionary coding portal: Learn, collaborate, and excel in programming.</div>
+                 <a href="https://github.com/NehaCod/Online-CodingLearning.git"><i class="fa-solid fa-arrow-up-right-from-square share"></i></a>
+            </div>
+            <div class="mainwork">
+                  <div class="work" style="background-image: url('completed-task.png');"></div>
+                  <div class="project">Dating Website</div>
+                  <div class="prodesc">Connecting hearts through a tailored matchmaking experience online.</div>
+                  <a href="https://github.com/NehaCod/DatingApp-.git"><i class="fa-solid fa-arrow-up-right-from-square share"></i></a>
+             </div>
+            <i class="fa-solid fa-caret-right right"></i>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="div1">
+            <h1 class="cname">Contact Me</h1>
+            <p class="email"><i class="fa-solid fa-envelope cicon" ></i>chaudharineha800@gmail.com</p>
+            <p class="phone"><i class="fa-solid fa-square-phone cicon"></i>9067048303</p>
+            <div class="shareicon">
+                <a href="https://www.linkedin.com/in/chaudharineha/" class="linkedin"><i class="fa-brands fa-linkedin linkedin icon" style="color:#9a53c9;text-decoration: none;" ></i></a>
+                <a href="https://www.instagram.com/" class="instagram"><i class="fa-brands fa-square-instagram instagram icon" style="color: #9a53c9;text-decoration: none;"></i></a>
+                <a href="https://github.com/NehaCod" class="github"><i class="fa-brands fa-square-github github icon" style="color: #9a53c9;text-decoration: none;"></i></a>
+            </div>
+            <div class="resume">
+                <a href="Neha Chaudhari Resume.pdf" download><button class="cv" >Download CV</button></a>
+            </div>
+
+        </div>
+        <div class="div2">
+            <form action="" name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required><br>
+                <input type="email" name="Email" placeholder="Your Email" required><br>
+                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea><br>
+                <input type="submit" name="submit" value="Submit" class="submit">
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div id="footer">
+        Made with <i class="fa-solid fa-heart heart" style="color: rgba(255, 0, 0, 0.822);"></i> in NYC <i class="fa-regular fa-copyright"></i> 2024 Portfolio.
+    </div>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
